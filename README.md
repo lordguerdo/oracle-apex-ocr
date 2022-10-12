@@ -1,4 +1,5 @@
 Oracle Apex OCR with GDrive API
+
 This plugin allows users to OCR images and documents through Google Drive API v3, saving the result in a collection.
 
 PRE-REQUISITES
