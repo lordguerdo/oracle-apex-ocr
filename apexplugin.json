@@ -2,7 +2,7 @@
   "name" : "Oracle Apex OCR with GDrive API",
   "version" : "1.0",
   "description" : "This plugin allows users to OCR images and documents through Google Drive API v3, saving the result in a collection.",
-  "keywords" : ["files", "upload", "drive", "google","ocr"],
+  "keywords" : ["files", "upload", "drive", "google", "ocr"],
   "homepage" : "https://github.com/lordguerdo/oracle-apex-ocr",
   "bugs" : {
     "url" : "https://github.com/lordguerdo/oracle-apex-ocr/issues",
