@@ -23,11 +23,11 @@ wwv_flow_imp.import_begin (
 end;
 /
  
-prompt APPLICATION 102 - Experiencing APEX Plugins (SavetoGoogleDrive)
+prompt APPLICATION 102 - APEX OCR SAMPLE
 --
 -- Application Export:
 --   Application:     102
---   Name:            Experiencing APEX Plugins (SavetoGoogleDrive)
+--   Name:            APEX OCR SAMPLE
 --   Date and Time:   11:21 Wednesday October 12, 2022
 --   Exported By:     ADMIN
 --   Flashback:       0
@@ -50,7 +50,7 @@ wwv_flow_imp_shared.create_plugin(
  p_id=>wwv_flow_imp.id(14139007436130406)
 ,p_plugin_type=>'PROCESS TYPE'
 ,p_name=>'COM.LUISRICARDO.APEXOCR'
-,p_display_name=>'Oracle Apex OCR with GDrive API'
+,p_display_name=>'Oracle APEX OCR with GDrive API'
 ,p_supported_ui_types=>'DESKTOP'
 ,p_supported_component_types=>'APEX_APPLICATION_PAGE_PROC:APEX_APPL_AUTOMATION_ACTIONS'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
