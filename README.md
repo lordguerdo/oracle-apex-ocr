@@ -22,7 +22,7 @@ On an APEX Application page:
 1. Create a File Browse page item on APEX app page and choose TABLE APEX_APPLICATION_TEMP_FILES for storage type.
 2. Create a Classic, Interactive or Grid report using an APEX COLLECTION, using the Collection Name with the name of your choice.
 	- Example: SELECT SEQ_ID, C001, C002, C003, D001, CLOB001, BLOB001 FROM APEX_COLLECTIONS WHERE COLLECTION_NAME = 'OCR_SAMPLE'
-		- (1) SEQ_ID Is the sequence number in your collection
+		- (1) SEQ_ID : Is the sequence number in your collection
 		- (2) C001 : Is the original filename
 		- (3) C002 : Is the file Mime Type
 		- (4) C003 : Is the Google Drive ID for the uploaded file
@@ -34,6 +34,6 @@ On an APEX Application page:
    - (a) Refresh Token (Mandatory) : Available from google drive rest api configuration.
    - (b) Client ID (Mandatory) : Available from google drive rest api configuration.
    - (c) Client Secret (Mandatory) : Available from google drive rest api configuration.
-   - (d) Collection Name : Name your collection here (as shown in step 2), then you will can check for the file and OCR.
+   - (d) Collection Name (Mandatory) : Name your collection here (as shown in step 2), then you will can check for the file and OCR.
    - (e) Delete Files After Upload : Choose this option if you want the file being deleted from Google Drive after the OCR Operation. Yes = Delete, No = Store the file
    - (f) File Browse Item (Mandatory) : Item created in step 1
