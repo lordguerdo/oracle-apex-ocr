@@ -1,6 +1,10 @@
-Oracle Apex OCR with GDrive API
+Oracle APEX OCR with GDrive API
 
 This plugin allows users to OCR images and documents through Google Drive API v3, saving the result in a collection.
+
+What Is Optical Character Recognition (OCR)?
+
+Optical character recognition (OCR) is sometimes referred to as text recognition. An OCR program extracts and repurposes data from scanned documents, camera images and image-only pdfs. OCR software singles out letters on the image, puts them into words and then puts the words into sentences, thus enabling access to and editing of the original content. It also eliminates the need for manual data entry.
 
 PRE-REQUISITES
 
