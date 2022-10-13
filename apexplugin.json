@@ -1,5 +1,5 @@
 {
-  "name" : "Oracle Apex OCR with GDrive API",
+  "name" : "Oracle APEX OCR with GDrive API",
   "version" : "1.0",
   "description" : "This plugin allows users to OCR images and documents through Google Drive API v3, saving the result in a collection.",
   "keywords" : ["files", "upload", "drive", "google", "ocr"],
